@@ -33,7 +33,15 @@ Welcome to my personal portfolio website. This project showcases my work and ski
 ## Contact
 
 For inquiries or collaboration, please reach out to me.
+Email: hiralalgh250@gmail.com
 
+Phone: +91 8084895073
+
+GitHub: github.com/hiralalkr1902
+
+LinkedIn: linkedin.com/in/hiralal-kumar
+
+Location: Muzaffarpur,Bihar, India
 ---
 
 Last updated: March 12, 2026
