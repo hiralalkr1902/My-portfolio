@@ -420,7 +420,7 @@ align-items: center;
 height: auto;
 margin:40px 0;
 width:100%;
-background:none;
+background:white;   /* line वापस आ जाएगी */
 }
 
 .vertical{
