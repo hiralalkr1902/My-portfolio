@@ -1,3 +1,7 @@
+html,body{
+overflow-x:hidden;
+}
+
 *{
 margin:0;
 padding:0;
@@ -299,7 +303,7 @@ padding:20px;
 border-radius:10px;
 transition:0.3s;
 min-height:300px;
-width:322px;
+width:100%;
 }
 
 .projectItem:hover{
@@ -366,8 +370,8 @@ color:#9c97f1;
 /* Contact Section */
 
 .contactSection{
-max-width:30vw;
-margin:0;
+max-width:90vw;
+margin:auto;
 margin-top:10px;
 margin-bottom:150px;
 }
@@ -404,6 +408,8 @@ text-decoration:none;
 text-decoration:underline;
 }
 
+
+/* Mobile Responsive */
 
 @media (max-width: 768px){
 
@@ -444,19 +450,7 @@ margin-top: 20px;
 .projectsSection,
 .contactSection{
 max-width: 90vw;
-}
-
-.box{
-flex-direction: column;
-height: auto;
-}
-
-.vertical{
-width: 100%;
-margin-bottom: 40px;
-border-left: none;
-border-top: 2px solid white;
-padding-top: 20px;
+margin:auto;
 }
 
 .projectBox{
