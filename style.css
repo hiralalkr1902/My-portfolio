@@ -111,7 +111,7 @@ box-shadow:0 0 30px rgba(0,229,255,0.6);
 .aboutSection{
 max-width:80vw;
 margin:auto;
-margin-bottom:150px;
+margin-bottom:40px;
 }
 
 .aboutSection h1{
@@ -131,59 +131,54 @@ color:lightgray;
 
 /* skills */
 
-.secondSection{
+.skillsSection{
 max-width:80vw;
 margin:auto;
-margin-bottom:200px;
+margin-bottom:20px;
+margin-top: auto;
 }
 
-.text-gray{
-color:gray;
-}
 
-.secondSection h1{
+.skillsSection h1{
 font-size:1.9rem;
-margin-top:10px;
 color:#20b2aa;
-}
-
-.box{
-background:white;
-width:80vw;
-height:2px;
-margin:70px 0;
-display:flex;
-justify-content:space-between;
-}
-
-.vertical{
-height:auto;
-width:100%;
-border-left:2px solid white;
-position:relative;
 margin-bottom:40px;
 }
 
-.image-top{
-width:25px;
-position:absolute;
-top:-32px;
-left:-12px;
+.skillsContainer{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
 }
 
-.vertical-title{
-margin-top:95px;
+.skillCard{
+background:#1e2167;
+padding:25px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+}
+
+.skillCard:hover{
+transform:translateY(-5px);
+background:#272a85;
+}
+
+.skillCard img{
+width:40px;
+margin-bottom:10px;
+}
+
+.skillCard h3{
+color:#00e5ff;
+margin-bottom:10px;
+}
+
+.skillCard p{
 font-size:14px;
-font-weight:600;
+color:lightgray;
+line-height:1.6;
 }
-
-.vertical-desc{
-font-size:11px;
-color:gray;
-line-height:1.5;
-margin-top:10px;
-}
-
 /* Footer */
 
 footer{
@@ -239,7 +234,7 @@ font-size:13px;
 max-width:80vw;
 margin:auto;
 margin-bottom:20px;
-margin-top:20vw;
+margin-top: auto;
 }
 
 .educationSection h1{
@@ -250,15 +245,17 @@ color:#20b2aa;
 
 .educationBox{
 margin-top:20px;
-display:flex;
-flex-direction:column;
-gap:20px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
 }
 
 .eduItem{
 background:#1e2167;
 padding:20px;
 border-radius:8px;
+min-height:150px;
+width:322px;
 }
 
 .eduItem h3{
@@ -279,10 +276,10 @@ color:#9c97f1;
 /* Projects Section */
 
 .projectsSection{
-max-width:60vw;
-margin:0;
-margin-top:10px;
-padding-left:10px;
+max-width:80vw;
+margin:auto;
+margin-bottom:20px;
+margin-top: auto;
 }
 
 .projectsSection h1{
@@ -303,9 +300,10 @@ background:#1e2167;
 padding:20px;
 border-radius:10px;
 transition:0.3s;
-min-height:300px;
-width:100%;
+width:322px;
+height:auto;
 }
+
 
 .projectItem:hover{
 transform:translateY(-5px);
@@ -329,8 +327,8 @@ font-size:14px;
 .experienceSection{
 max-width:80vw;
 margin:auto;
+margin-top:40px;
 margin-bottom:10px;
-margin-top:20px;
 }
 
 .experienceSection h1{
@@ -350,7 +348,11 @@ gap:25px;
 background:#1e2167;
 padding:20px;
 border-radius:8px;
+width:auto;
+height:auto;
+margin-bottom:40px;
 }
+
 
 .expItem h3{
 font-size:18px;
@@ -371,10 +373,10 @@ color:#9c97f1;
 /* Contact Section */
 
 .contactSection{
-max-width:90vw;
+max-width:80vw;
 margin:auto;
-margin-top:10px;
-margin-bottom:150px;
+margin-bottom:20px;
+margin-top: auto;
 }
 
 .contactSection span{
@@ -396,8 +398,8 @@ background:#1e2167;
 padding:25px;
 border-radius:8px;
 line-height:2;
-min-height:300px;
-width:322px;
+/* min-height:300px;
+width:320px; */
 }
 
 .contactBox a{
